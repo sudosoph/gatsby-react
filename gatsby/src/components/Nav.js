@@ -16,6 +16,9 @@ function goToSlicemasters() {
 
 const NavStyles = styled.nav`
   margin-bottom: 3rem;
+  .logo {
+    transform: translateY(-25%);
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -25,6 +28,7 @@ const NavStyles = styled.nav`
     list-style: none;
     grid-gap: 2rem;
     align-items: center;
+    margin-top: -6rem;
   }
   li {
     --rotate: -2deg;
@@ -49,6 +53,9 @@ const NavStyles = styled.nav`
     &:hover {
       color: var(--red);
     }
+    /* &[aria-current='page'] {
+      color: var(--red);
+    } */
   }
 `;
 
