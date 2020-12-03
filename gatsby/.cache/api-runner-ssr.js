@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/sophia/Documents/Code/gatsby-react/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/sophia/Documents/Code/gatsby-react/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"semc1mmx","dataset":"production","watchMode":true,"token":"skK1ZlNVFWz181byiQFYhU6Tj7VXa7OTt04TR4zQX8EvVPk5aMcmKIbdQc3fdFzCipOv6gDliCENMXGoU6inB0rYScwqPZWri08ai8mnovtAipI0bSdKv4WvUcCaJcYkt33dzsIPI9qk2n44lGOnvSzgwt9NKGkaMUBQOhAMGU4l4RymS6Ug"},
+    },{
       plugin: require('/Users/sophia/Documents/Code/gatsby-react/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
